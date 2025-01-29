@@ -1,0 +1,139 @@
+/* Estilos gerais */ 
+
+body { 
+
+    font-family: sans-serif; 
+
+    margin: 0; 
+
+} 
+
+ 
+
+/* Cabeçalho */ 
+
+header { 
+
+    background-color: #f0f0f0; 
+
+    padding: 20px; 
+    text-align:center;
+   
+
+} 
+
+ 
+
+header h1 { 
+
+    margin: 0; 
+
+} 
+
+ 
+
+nav ul { 
+
+    list-style: none; 
+    
+    margin: 5px ;
+
+    padding: 0; 
+    
+} 
+
+a:hover{
+    color:red;
+}
+
+
+ 
+
+nav li, a { 
+
+    display: inline; 
+    text-decoration: none;
+    margin-right: 20px; 
+    color: #333;
+
+} 
+
+ 
+
+/* Seção de destaques */ 
+
+#destaques { 
+
+    padding: 20px; 
+
+} 
+
+ 
+
+.produtos { 
+
+    display: flex; 
+
+    justify-content: space-around; 
+
+    flex-wrap: wrap; 
+
+} 
+
+ 
+
+.produto { 
+
+    width: 250px; 
+
+    border: 1px solid #ccc; 
+
+    padding: 20px; 
+
+    margin-bottom: 20px; 
+
+    text-align: center; 
+
+} 
+
+ 
+
+.produto img { 
+
+    max-width: 100%; 
+
+    height: auto; 
+
+    margin-bottom: 10px; 
+
+} 
+
+ 
+
+/* Barra lateral */ 
+
+aside { 
+
+    background-color: #f5f5f5; 
+
+    padding: 20px; 
+
+    margin-bottom: 20px; 
+
+} 
+
+ 
+
+/* Rodapé */ 
+
+footer { 
+
+    background-color: #333; 
+
+    color: white; 
+
+    padding: 10px; 
+
+    text-align: center; 
+
+} 

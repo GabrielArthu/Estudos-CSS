@@ -1,0 +1,55 @@
+/* Seletor universal de elemento */
+*{
+ margin : 0px;   
+}
+
+/* Seletor de tipo */
+textarea{
+    border:1px solid red;
+}
+
+/* Seletor de descendentes de forma direta ou indireta*/
+p input{
+    border : solid red;
+}
+
+/* Seletor de filhos  apenas de forma direta */
+p > a {
+    color: green;
+}
+
+/* Seletor de irmao adjacente   no caso a baixo seleciona todos os elementos que possuem a tag input e que sejam irmaos e imediatamente precedidos por elementos com a tag label*/
+label + input{
+    color:green;
+}
+
+/* Seletor de atributos Pode ser simplificado apenas ao atrubuto*/
+*[name="cidade"]{
+    font-weight:italic;
+}
+
+img [titlle]{
+    width: 100px;
+}
+
+/* Seletor de ID */
+#cidade{
+    font-weight: bold;
+}
+
+/* Seletor por class  */
+.titulos{
+    font-size: 40 px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+a:hover{
+    
+    color: red;
+}
+
